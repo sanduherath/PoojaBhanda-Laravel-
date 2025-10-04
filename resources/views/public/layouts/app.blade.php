@@ -14,6 +14,14 @@
     @yield('content')
 </body>
 @include('public.libraries.scripts')
-
+<script>
+    // set page title to appName
+    document.title = `${appName} | Main Panel`;
+</script>
+<script>
+    function locatePanelItem(panelItem) {
+        window.location.href = "../main-panel/" + panelItem;
+    }
+</script>
 
 </html>

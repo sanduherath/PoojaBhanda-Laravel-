@@ -1,12 +1,13 @@
 @extends('public.layouts.app')
-
+@section('title', 'Application | Main Panel')
 @section('content')
+
 <!--center-->
     <div class="grid place-items-center h-5/6 w-full">
         <!--Main Panel (for max-lg)-->
         <div
             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 w-fit gap-6 h-fit py-6 gap-6 text-white px-12">
-            <div onclick="locatePanelItem('dash');"
+            <div onclick="window.location='{{ route('dashboard') }}'"
                 class="w-[200px] max-lg:w-[150px] h-[200px] max-lg:h-[150px] bg-basic rounded-lg flex flex-col gap-3 justify-center items-center hover:scale-90 transition-all cursor-pointer uppercase lg:text-xl">
                 <img src="assets/images/main-panel/btn-icons/dash.svg"
                     class="w-[105px] h-[105px] max-xl:w-[70px] max-xl:h-[70px]" alt="">

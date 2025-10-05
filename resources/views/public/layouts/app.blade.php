@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Application | Main Panel</title>
+    <title>@yield('title', 'Application')</title>
     <link rel="icon" href="../images/favicon.png">
     @include('public.libraries.styles')
 </head>
@@ -14,14 +14,6 @@
     @yield('content')
 </body>
 @include('public.libraries.scripts')
-<script>
-    // set page title to appName
-    document.title = `${appName} | Main Panel`;
-</script>
-<script>
-    function locatePanelItem(panelItem) {
-        window.location.href = "../main-panel/" + panelItem;
-    }
-</script>
+
 
 </html>

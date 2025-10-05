@@ -10,4 +10,8 @@ class HomeController extends Controller
     {
         return view('public.pages.index');
     }
+      public function dashboard()
+    {
+        return view('public.pages.dashboard');
+    }
 }

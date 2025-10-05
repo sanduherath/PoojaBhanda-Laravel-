@@ -10,3 +10,5 @@ Route::get('/fruit-management', [HomeController::class, 'fruitManagement'])->nam
 Route::get('/fruit-management/product', [HomeController::class, 'fruitManagementProduct'])->name('fruit-management-product');
 Route::get('/fruit-management/billing', [HomeController::class, 'fruitManagementBilling'])->name('fruit-management-billing');
 Route::get('/fruit-management/create-basket', [HomeController::class, 'fruitManagementCreateBasket'])->name('fruit-management-create-basket');
+Route::get('/pooja-bhanda', [HomeController::class, 'poojaBhanda'])->name('pooja-bhanda');
+Route::get('/branch-management', [HomeController::class, 'branchManagement'])->name('branch-management');

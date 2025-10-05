@@ -19,13 +19,13 @@
                     class="w-[105px] h-[105px] max-xl:w-[70px] max-xl:h-[70px]" alt="">
                 <p class="text-center">Fruit Management</p>
             </div>
-            <div onclick="locatePanelItem('pooja-bhanda');"
+            <div onclick="window.location='{{ route('pooja-bhanda') }}'"
                 class="w-[200px] max-lg:w-[150px] h-[200px] max-lg:h-[150px] bg-basic rounded-lg flex flex-col gap-3 justify-center items-center hover:scale-90 transition-all cursor-pointer uppercase lg:text-xl">
                 <img src="assets/images/main-panel/btn-icons/product-management.png"
                     class="w-[105px] h-[105px] max-xl:w-[70px] max-xl:h-[70px]" alt="">
                 <p class="text-center">Pooja Bhanda Management</p>
             </div>
-            <div onclick="locatePanelItem('branch-mgmt');"
+            <div onclick="window.location='{{ route('branch-management') }}'"
                 class="w-[200px] max-lg:w-[150px] h-[200px] max-lg:h-[150px] bg-basic rounded-lg flex flex-col gap-3 justify-center items-center hover:scale-90 transition-all cursor-pointer uppercase lg:text-xl">
                 <img src="assets/images/main-panel/btn-icons/warehouse-mgmt.png"
                     class="w-[105px] h-[105px] max-xl:w-[70px] max-xl:h-[70px]" alt="">

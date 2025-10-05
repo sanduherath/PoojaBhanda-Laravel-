@@ -30,4 +30,12 @@ class HomeController extends Controller
     {
         return view('public.pages.fruit-management.create-basket.index');
     }
+         public function poojaBhanda()
+    {
+        return view('public.pages.pooja-bhanda.index');
+    }
+           public function branchManagement()
+    {
+        return view('public.pages.branch-mgmt.index');
+    }
 }

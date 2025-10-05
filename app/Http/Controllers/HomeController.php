@@ -14,4 +14,20 @@ class HomeController extends Controller
     {
         return view('public.pages.dashboard');
     }
+       public function fruitManagement()
+    {
+        return view('public.pages.fruit-management.index');
+    }
+         public function fruitManagementProduct()
+    {
+        return view('public.pages.fruit-management.product.index');
+    }
+      public function fruitManagementBilling()
+    {
+        return view('public.pages.fruit-management.billing.index');
+    }
+      public function fruitManagementCreateBasket()
+    {
+        return view('public.pages.fruit-management.create-basket.index');
+    }
 }

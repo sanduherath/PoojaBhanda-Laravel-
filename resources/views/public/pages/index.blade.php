@@ -13,7 +13,7 @@
                     class="w-[105px] h-[105px] max-xl:w-[70px] max-xl:h-[70px]" alt="">
                 <p class="text-center">Dashboard</p>
             </div>
-            <div onclick="locatePanelItem('fruit-management');"
+            <div onclick="window.location='{{ route('fruit-management') }}'"
                 class="w-[200px] max-lg:w-[150px] h-[200px] max-lg:h-[150px] bg-basic rounded-lg flex flex-col gap-3 justify-center items-center hover:scale-90 transition-all cursor-pointer uppercase lg:text-xl">
                 <img src="assets/images/main-panel/btn-icons/fruit.png"
                     class="w-[105px] h-[105px] max-xl:w-[70px] max-xl:h-[70px]" alt="">

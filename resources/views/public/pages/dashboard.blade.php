@@ -437,3 +437,9 @@
 </script>
 
 @endsection
+@push('scripts')
+<script>
+    // set page title to appName
+    document.title = `${appName} | Dashboard`;
+</script>
+@endpush

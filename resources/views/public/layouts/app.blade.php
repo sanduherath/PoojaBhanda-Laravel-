@@ -14,6 +14,5 @@
     @yield('content')
 </body>
 @include('public.libraries.scripts')
-
-
+@stack('scripts')
 </html>
